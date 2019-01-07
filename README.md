@@ -12,11 +12,11 @@ This example is to complement a blog post available at (post link coming soon) w
 
 ## Installation
 
-Run the following commands from your favorite command console.   Mine is [ConEmu](https://conemu.github.io/).
+Once you have setup your Salesforce Developer account, and defined the 'Connected App', update appsettings.json file with your client-id and client-secret.  Note: You should convert this to use user-secrets in development, and environment variables and/or azure key vault in production to ensure security.
+
+Once settings are updated, crun the following commands from your favorite command console.   Mine is [ConEmu](https://conemu.github.io/).
 
 ```bash
-git clone this-repo-url
-cd your-repo-folder
 dotnet build
 dotnet run
 ```
